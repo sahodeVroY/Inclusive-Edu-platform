@@ -1,0 +1,44 @@
+.speech-to-text {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stt-btn {
+  background: #61dafb;
+  color: #181c24;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+}
+
+.stt-btn.listening {
+  background: #23283a;
+  color: #61dafb;
+  border: 2px solid #61dafb;
+}
+
+.stt-btn:focus, .stt-btn:hover {
+  background: #23283a;
+  color: #61dafb;
+}
+
+.stt-transcript {
+  min-height: 2.5rem;
+  font-size: 1.15rem;
+  background: #23283a;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  word-break: break-word;
+} 

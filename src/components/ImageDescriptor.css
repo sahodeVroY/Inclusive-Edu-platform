@@ -1,0 +1,69 @@
+.image-descriptor {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img-label {
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+  color: #61dafb;
+  font-weight: 600;
+}
+
+.img-preview {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.img-desc-btn {
+  background: #61dafb;
+  color: #181c24;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.img-desc-btn:focus, .img-desc-btn:hover {
+  background: #23283a;
+  color: #61dafb;
+}
+
+.img-description {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  background: #23283a;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  max-width: 600px;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img-description strong {
+  white-space: nowrap;
+  margin-right: 0.5rem;
+}
+
+.img-read-btn {
+  background: none;
+  border: none;
+  color: #61dafb;
+  font-size: 1.3rem;
+  margin-left: 0.7rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.img-read-btn:focus, .img-read-btn:hover {
+  color: #fff;
+} 

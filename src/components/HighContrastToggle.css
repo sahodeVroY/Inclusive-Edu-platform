@@ -1,0 +1,55 @@
+.contrast-toggle {
+  background: #23283a;
+  color: #fff;
+  border: 2px solid #61dafb;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contrast-toggle:focus, .contrast-toggle:hover {
+  background: #61dafb;
+  color: #181c24;
+  outline: 2px solid #fff;
+}
+
+.high-contrast, .high-contrast body, .high-contrast .App {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.high-contrast .section {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+
+.high-contrast .header {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.high-contrast .nav-list a {
+  color: #fff !important;
+}
+
+.high-contrast .nav-list a:focus, .high-contrast .nav-list a:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.high-contrast .course-link {
+  background: #fff !important;
+  color: #000 !important;
+  border: 2px solid #fff;
+}
+
+.high-contrast .course-link:focus, .high-contrast .course-link:hover {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff;
+}

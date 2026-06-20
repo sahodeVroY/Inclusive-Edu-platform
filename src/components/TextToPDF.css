@@ -1,0 +1,53 @@
+.text-to-pdf {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.file-label {
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+  color: #61dafb;
+  font-weight: 600;
+}
+
+.or-divider {
+  margin: 0.5rem 0;
+  color: #b3e6ff;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.tpdf-input {
+  width: 100%;
+  max-width: 600px;
+  font-size: 1.1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #23283a;
+  color: #fff;
+  margin-bottom: 1rem;
+  resize: none;
+  min-height: 3rem;
+  box-sizing: border-box;
+}
+
+.tpdf-btn {
+  background: #61dafb;
+  color: #181c24;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+}
+
+.tpdf-btn:focus, .tpdf-btn:hover {
+  background: #23283a;
+  color: #61dafb;
+} 

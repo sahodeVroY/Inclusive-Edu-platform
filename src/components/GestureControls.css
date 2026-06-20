@@ -1,0 +1,52 @@
+.gesture-controls {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.gesture-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.gesture-status {
+  font-size: 1rem;
+  color: #61dafb;
+  font-weight: 600;
+}
+
+.gesture-feedback {
+  margin: 0.7rem 0;
+  font-size: 1.1rem;
+}
+
+.gesture-label {
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.gesture-label.gesture-left {
+  color: #ffb347;
+}
+.gesture-label.gesture-right {
+  color: #7fff7f;
+}
+.gesture-label.gesture-open {
+  color: #61dafb;
+}
+.gesture-label.gesture-closed {
+  color: #ff6961;
+}
+.gesture-label.gesture-none {
+  color: #b3e6ff;
+}
+
+.gesture-instructions {
+  font-size: 0.98rem;
+  color: #b3e6ff;
+  margin-top: 0.5rem;
+} 
